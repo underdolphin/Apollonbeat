@@ -11,14 +11,14 @@
 
   <ItemGroup>
     <Folder Include="ViewModel\" />
-    <Folder Include="Model\" />
     <Folder Include="Common\" />
-    <Folder Include="View\Setting\" />
+    <Folder Include="View\Dashboard\" />
+    <Folder Include="View\Events\" />
+    <Folder Include="View\Common\" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="SharpDX.Desktop" Version="4.0.1" />
-    <PackageReference Include="SharpDX.Direct2D1" Version="4.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="2.1.0" />
     <PackageReference Include="System.Reactive" Version="4.0.0" />
   </ItemGroup>
 
